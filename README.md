@@ -2,8 +2,6 @@
 
 一个基于 Vue3 + Node.js + Express + LLM API 的 AI 对话应用，支持流式输出、多轮对话上下文和 RAG 知识库检索基础能力。
 
-> 本项目为个人学习项目，从零搭建，逐步实现 AI 应用开发的核心链路。
-
 ## 技术栈
 
 | 层级 | 技术 |
@@ -103,20 +101,6 @@ npm run dev
 ```
 
 访问 `http://localhost:5173`
-
-## 学习路径
-
-本项目按天逐步搭建，每天一个主题：
-
-| 阶段 | 内容 |
-|------|------|
-| Day 1-5 | JavaScript / Vue3 / TypeScript / HTTP+Axios / Node+Express |
-| Day 6-8 | LLM API / RAG 概念 / Agent 概念 |
-| Day 9-10 | 后端 LLM 调用 + Vue 前端接入 |
-| Day 11 | Streaming 流式输出（SSE + ReadableStream） |
-| Day 12 | 多轮对话 Context |
-| Day 13 | RAG 第一步：文档读取 + Chunk 切分 |
-| Day 14 | RAG 第二步：Embedding 向量化 + 余弦相似度 |
 
 ## 后续规划
 
