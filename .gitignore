@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment variables (API Keys - 绝对不能提交)
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 个人文件夹（不提交）
+dy/
+dy
+
+# 临时测试文件
+stream-test.txt
+test-body.json
+*.tmp
